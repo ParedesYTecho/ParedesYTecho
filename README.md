@@ -1,43 +1,39 @@
-# ParedesYTecho
+<img src="assets/profile.svg" alt="Hola, soy ParedesYTecho. Aquí comparto lo que estoy construyendo." width="100%">
 
-Software para comunidades de Discord y herramientas de escritorio para Windows.
+Me gusta entender cómo funcionan las cosas y probar mis propias ideas. Ahora estoy dando forma a **Cerith** y mantengo **SkullBoard** y **Werewolf**, dos proyectos que nacieron alrededor de comunidades de Discord.
 
-## Proyectos
+Me interesan los sistemas, el desarrollo de software y las herramientas de IA. Aquí voy compartiendo mis proyectos y las decisiones que tomo mientras los hago evolucionar.
+
+## En lo que estoy trabajando
 
 ### [Cerith](https://github.com/ParedesYTecho/Cerith)
 
-Telemetría nativa para Windows: hardware, rendimiento en videojuegos y uso de herramientas de IA. Su arquitectura permite presentar una misma métrica en distintos componentes mediante identificadores independientes de la fuente.
+Estoy reuniendo métricas de hardware, rendimiento en videojuegos y uso de herramientas de IA en una aplicación nativa para Windows. Quiero poder elegir qué información veo y cómo la organizo, sin depender de varias aplicaciones.
 
-**C# · .NET · WinUI 3 · PresentMon**
+**C# · .NET · WinUI 3 · PresentMon**  
+Prototipo funcional en fase alfa. Los componentes visuales siguen en desarrollo; todavía no hay instalador público ni versión estable.
 
-Prototipo funcional en fase alfa. Sin instalador público ni versión estable; los componentes visuales siguen en desarrollo.
+[Explorar el código](https://github.com/ParedesYTecho/Cerith) &nbsp; ↗ &nbsp; [Ver el roadmap](https://github.com/ParedesYTecho/Cerith/blob/main/docs/ROADMAP.md)
 
-[Código y documentación](https://github.com/ParedesYTecho/Cerith) · [Roadmap](https://github.com/ParedesYTecho/Cerith/blob/main/docs/ROADMAP.md)
+<br>
 
----
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>💀 SkullBoard</h3>
+<p>Quería que los mensajes más graciosos de una comunidad no se perdieran en el chat. Con SkullBoard, las reacciones 💀 deciden cuáles pasan al tablón de destacados.</p>
+<p>El proyecto incluye rankings, estadísticas y un dashboard con ajustes por servidor. Sigo mejorando el bot y el panel.</p>
+<p><sub>Python · discord.py · Flask · PostgreSQL · JavaScript</sub></p>
+<p><a href="https://github.com/ParedesYTecho/Skullboard"><b>Conocer SkullBoard ↗</b></a> &nbsp; <a href="https://skullboard.vercel.app/">Web ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>🌙 Werewolf</h3>
+<p>Con Werewolf llevo Pueblo Duerme a Discord: roles ocultos, noches, debate y votaciones, con el bot encargado de conducir la partida.</p>
+<p>Trabajo también en su panel web, desde el que se gestionan servidores y se consultan perfiles e historial de partidas.</p>
+<p><sub>Python · discord.py · Next.js · React · PostgreSQL</sub></p>
+<p><a href="https://github.com/ParedesYTecho/Werewolf"><b>Conocer Werewolf ↗</b></a> &nbsp; <a href="https://werewolfdashboard.vercel.app/">Web ↗</a></p>
+</td>
+</tr>
+</table>
 
-### [SkullBoard](https://github.com/ParedesYTecho/Skullboard)
-
-Un bot de Discord que convierte las reacciones 💀 en un tablón de mensajes destacados. Incluye rankings, estadísticas y un dashboard con configuración independiente por servidor.
-
-**Python · discord.py · Flask · PostgreSQL · JavaScript**
-
-Proyecto funcional en evolución. El repositorio público explica el producto y sus decisiones técnicas; el código del bot y el dashboard es privado.
-
-[Presentación y documentación](https://github.com/ParedesYTecho/Skullboard) · [Web](https://skullboard.vercel.app/)
-
----
-
-### [Werewolf](https://github.com/ParedesYTecho/Werewolf)
-
-Juego social de Pueblo Duerme en Discord. Automatiza roles, fases nocturnas, debate, votaciones y resultados, con un panel web para gestionar servidores y consultar estadísticas.
-
-**Python · discord.py · Next.js · React · PostgreSQL**
-
-En desarrollo y mantenimiento. El repositorio público presenta el juego; el código del bot y el dashboard es privado.
-
-[Presentación y documentación](https://github.com/ParedesYTecho/Werewolf) · [Web](https://werewolfdashboard.vercel.app/)
-
----
-
-Cada repositorio recoge el alcance implementado, la documentación y los siguientes pasos de su proyecto.
+Los repositorios públicos de SkullBoard y Werewolf presentan los productos y su documentación. Mantengo el código del bot y del dashboard de cada uno en repositorios privados.
